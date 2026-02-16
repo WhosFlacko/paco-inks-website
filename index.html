@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paco.Inks | Realism & Black and Grey Tattoo Artist | Colorado Springs</title>
+    <meta name="description" content="Paco.Inks — Realism and Black & Grey tattoo artist at Tattoo Zoo, Colorado Springs. View portfolio and book your appointment.">
+    <meta name="keywords" content="tattoo artist, realism tattoo, black and grey tattoo, Colorado Springs, Tattoo Zoo, Paco Inks">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">PACO<span>.INKS</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#flash" class="nav-link">Flash</a></li>
+                <li><a href="#aftercare" class="nav-link">Aftercare</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">PACO<span>.INKS</span></h1>
+            <p class="hero-subtitle">Realism & Black and Grey</p>
+            <p class="hero-location">Tattoo Zoo — Colorado Springs, CO</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-outline">Book Appointment</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://instagram.com/paco.inks" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </a>
+                <a href="https://tiktok.com/@paco.inks" target="_blank" rel="noopener" aria-label="TikTok">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.87a8.16 8.16 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1-.3z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-placeholder">
+                        <!-- Replace with actual photo -->
+                        <span>Artist Photo</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-label">About</h2>
+                    <h3 class="section-title">The Artist Behind the Ink</h3>
+                    <p>Paco is a realism and black & grey tattoo artist based at <strong>Tattoo Zoo</strong> in Colorado Springs, Colorado. Specializing in photorealistic portraits, detailed nature scenes, and intricate black and grey work, every piece is crafted with precision and care.</p>
+                    <p>Whether you're looking for a deeply personal portrait, a bold statement piece, or fine-line detail work, Paco brings your vision to life with meticulous attention to detail and a commitment to quality that shows in every tattoo.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-label">Specialty</span>
+                            <span class="stat-value">Realism</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Style</span>
+                            <span class="stat-value">Black & Grey</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Studio</span>
+                            <span class="stat-value">Tattoo Zoo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-label">Portfolio</h2>
+            <h3 class="section-title">Recent Work</h3>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="realism">Realism</button>
+                <button class="filter-btn" data-filter="blackgrey">Black & Grey</button>
+                <button class="filter-btn" data-filter="portrait">Portraits</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Placeholder images — replace src with actual tattoo photos -->
+                <div class="portfolio-item" data-category="realism">
+                    <div class="portfolio-placeholder">
+                        <span>Tattoo 1</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="blackgrey">
+                    <div class="portfolio-placeholder">
+                        <span>Tattoo 2</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait">
+                    <div class="portfolio-placeholder">
+                        <span>Tattoo 3</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="realism blackgrey">
+                    <div class="portfolio-placeholder">
+                        <span>Tattoo 4</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait blackgrey">
+                    <div class="portfolio-placeholder">
+                        <span>Tattoo 5</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="realism">
+                    <div class="portfolio-placeholder">
+                        <span>Tattoo 6</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="blackgrey">
+                    <div class="portfolio-placeholder">
+                        <span>Tattoo 7</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait realism">
+                    <div class="portfolio-placeholder">
+                        <span>Tattoo 8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flash Section -->
+    <section class="flash" id="flash">
+        <div class="container">
+            <h2 class="section-label">Flash Designs</h2>
+            <h3 class="section-title">Ready to Tattoo</h3>
+            <p class="section-desc">Pre-designed pieces available for immediate booking. First come, first served — once it's tattooed, it's one of a kind.</p>
+            <div class="flash-grid">
+                <div class="flash-item">
+                    <div class="portfolio-placeholder">
+                        <span>Flash 1</span>
+                    </div>
+                    <div class="flash-info">
+                        <span class="flash-status available">Available</span>
+                    </div>
+                </div>
+                <div class="flash-item">
+                    <div class="portfolio-placeholder">
+                        <span>Flash 2</span>
+                    </div>
+                    <div class="flash-info">
+                        <span class="flash-status available">Available</span>
+                    </div>
+                </div>
+                <div class="flash-item">
+                    <div class="portfolio-placeholder">
+                        <span>Flash 3</span>
+                    </div>
+                    <div class="flash-info">
+                        <span class="flash-status claimed">Claimed</span>
+                    </div>
+                </div>
+                <div class="flash-item">
+                    <div class="portfolio-placeholder">
+                        <span>Flash 4</span>
+                    </div>
+                    <div class="flash-info">
+                        <span class="flash-status available">Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aftercare Section -->
+    <section class="aftercare" id="aftercare">
+        <div class="container">
+            <h2 class="section-label">Aftercare</h2>
+            <h3 class="section-title">Protect Your Investment</h3>
+            <div class="aftercare-grid">
+                <div class="aftercare-card">
+                    <div class="aftercare-number">01</div>
+                    <h4>First 24 Hours</h4>
+                    <p>Leave the bandage on for 2-4 hours. Gently wash with lukewarm water and fragrance-free soap. Pat dry — never rub. Apply a thin layer of unscented moisturizer or aftercare balm.</p>
+                </div>
+                <div class="aftercare-card">
+                    <div class="aftercare-number">02</div>
+                    <h4>Days 2-14</h4>
+                    <p>Wash 2-3 times daily with clean hands. Apply a thin layer of aftercare product. Don't scratch, pick, or peel flaking skin. Avoid tight clothing over the tattoo.</p>
+                </div>
+                <div class="aftercare-card">
+                    <div class="aftercare-number">03</div>
+                    <h4>Weeks 2-4</h4>
+                    <p>Continue moisturizing daily. Avoid direct sunlight, pools, hot tubs, and saunas. The tattoo may look cloudy — this is normal and will clear as it heals.</p>
+                </div>
+                <div class="aftercare-card">
+                    <div class="aftercare-number">04</div>
+                    <h4>Long-Term Care</h4>
+                    <p>Always apply SPF 30+ sunscreen over your tattoo when exposed to sun. Keep the skin moisturized. Touch-ups are available if needed — just reach out.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Booking Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-label">Book</h2>
+                    <h3 class="section-title">Let's Create Something</h3>
+                    <p>Fill out the form with your idea and I'll get back to you to discuss details, pricing, and scheduling. The more detail you provide, the faster we can get started.</p>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <strong>Tattoo Zoo</strong>
+                                <p>Colorado Springs, CO</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            <div>
+                                <strong>Instagram</strong>
+                                <a href="https://instagram.com/paco.inks" target="_blank">@paco.inks</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.87a8.16 8.16 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1-.3z"/></svg>
+                            <div>
+                                <strong>TikTok</strong>
+                                <a href="https://tiktok.com/@paco.inks" target="_blank">@paco.inks</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required placeholder="your@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="placement">Placement *</label>
+                                <input type="text" id="placement" name="placement" required placeholder="e.g. Forearm, Chest, Back">
+                            </div>
+                            <div class="form-group">
+                                <label for="size">Approximate Size</label>
+                                <input type="text" id="size" name="size" placeholder="e.g. 4x6 inches">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Tattoo Idea *</label>
+                            <textarea id="description" name="description" required placeholder="Describe your tattoo idea in detail. Include any reference images, themes, or specific elements you want." rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="reference">Reference Image URL</label>
+                            <input type="url" id="reference" name="reference" placeholder="Link to reference image (Google Drive, Imgur, etc.)">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Request</button>
+                        <p class="form-note">* I'll respond within 24-48 hours to discuss your piece and schedule your appointment.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="nav-logo">PACO<span>.INKS</span></span>
+                    <p>Realism & Black and Grey Tattoo Artist</p>
+                    <p>Tattoo Zoo — Colorado Springs, CO</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/paco.inks" target="_blank" rel="noopener" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                    <a href="https://tiktok.com/@paco.inks" target="_blank" rel="noopener" aria-label="TikTok">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.87a8.16 8.16 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1-.3z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Paco.Inks. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous">&lsaquo;</button>
+        <button class="lightbox-next" aria-label="Next">&rsaquo;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
